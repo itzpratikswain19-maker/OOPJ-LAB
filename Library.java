@@ -43,16 +43,13 @@ class Library {
 
     public static void main(String[] args) {
 
-        Library library = new Library();
+        Library l = new Library();
 
-        library.addBook("Java");
-        library.addBook("Python");
-        library.addBook("Database");
-
-        library.displayBooks();
-
-        library.removeBook("Python");
-
-        library.displayBooks();
+        l.addBook("Java");
+        l.addBook("Python");
+        l.addBook("Database");
+        l.displayBooks();
+        l.removeBook("Python");
+        l.displayBooks();
     }
 }
