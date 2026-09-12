@@ -20,7 +20,7 @@ class Assignment5_Q3{
         }
         System.out.println("After Sorting: ");
         for (int i = 0; i < ub; i++){
-            System.err.print(arr[i] + " ");
+            System.out.print(arr[i] + " ");
         }
     }
 }
