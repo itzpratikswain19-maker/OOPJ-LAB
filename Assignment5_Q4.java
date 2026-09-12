@@ -11,7 +11,7 @@ class Assignment5_Q4{
         for (int i = 0;i < size; i++){
             arr[i] = sc.nextInt();
         }
-        int beg = 0, end = arr.length - 1, mid = (end + end) / 2;
+        int beg = 0, end = arr.length - 1, mid = (beg + end) / 2;
         System.out.println("Enter a number to search: ");
         int n = sc.nextInt();
         while (beg <= end && arr[mid] != n){
