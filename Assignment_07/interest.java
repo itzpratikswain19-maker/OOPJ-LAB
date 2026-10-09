@@ -1,4 +1,4 @@
-
+//Assignment-07_Question-04
 import java.util.*;
 
 class interest {
